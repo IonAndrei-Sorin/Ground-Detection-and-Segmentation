@@ -1,0 +1,10 @@
+v 4
+file . "tb/tb_groundSegmentation.vhd" "fbd0cec4e007c523772650652f5f29d7080cc519" "20251218213846.346":
+  entity tb_groundsegmentation at 1( 0) + 0 on 15;
+  architecture sim of tb_groundsegmentation at 11( 177) + 0 on 16;
+file . "src/ground_types_pkg.vhd" "2d81b19748baa197ec963c4a88f0baf3c015cb2c" "20251218213846.285":
+  package ground_types_pkg at 1( 0) + 0 on 11;
+  package body ground_types_pkg at 23( 689) + 0 on 12;
+file . "src/groundSegmentation.vhd" "6803e0aa523159d7ec68ec6607ad05ee2c59a996" "20251218213846.287":
+  entity groundsegmentation at 20( 741) + 0 on 13;
+  architecture rtl of groundsegmentation at 36( 1113) + 0 on 14;
