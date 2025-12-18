@@ -87,7 +87,8 @@ The following test scenarios are included in the testbench:
   A manually constructed range image, hardcoded directly in the testbench, designed to imitate the geometric structure of a real LiDAR range image while being scaled down to a small resolution. This scenario preserves key characteristics such as depth gradients, vertical structures, and ground–object separation, while remaining compatible with FPGA constraints.
 
 - **Partial real LiDAR range image (KITTI dataset)**  
-  A reduced region extracted from a real KITTI LiDAR frame, used to evaluate the behavior of the algorithm on real-world data. Due to the increased computational cost, this test is intended for functional validation only and does not satisfy real-time constraints.
+  A reduced region extracted from a single LiDAR frame from the KITTI dataset, used locally for functional validation only. Due to the increased computational cost, this test does not satisfy real-time constraints. The original dataset file is not included in this repository and is not redistributed.
+
 
 ---
 
