@@ -95,6 +95,8 @@ The following test scenarios are included in the testbench:
 ## Results and Visualizations
 The results of the proposed ground segmentation algorithm are evaluated visually using representative test scenarios. For each scenario, the input LiDAR range image and the corresponding ground segmentation mask are displayed side by side.
 
+To view the input matrices and the generated ground masks, the visualization script located in the `python/` directory must be executed after running the simulation.
+
 The visualizations confirm that the algorithm correctly identifies ground regions while preserving non-ground obstacles, consistent with the expected geometric structure of the scenes.
 
 ### Road with Longitudinal Slope
